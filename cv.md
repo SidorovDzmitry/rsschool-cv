@@ -53,7 +53,8 @@ _Engineer for the adjustment of power equipment, specialist in contract work at 
 
 ---
 
-##_Education:_##
+## _Education:_
+
 _University:_
 
 - Belarusian National Technical University, Thermal power plants;
