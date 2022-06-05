@@ -1,8 +1,8 @@
-#**Sidorov Dzmitry**#
+# Sidorov Dzmitry
 
 ---
 
-##**_Contacts:_**##
+## _Contacts:_
 
 - _Location:_ Minsk, Belarus;
 - _Phone:_ +375-33-380-45-12;
@@ -11,15 +11,15 @@
 
 ---
 
-##**_About Myself_**##:
+## _About Myself_:
 
-_I am single, I am 32 years old. I am interested in **web development** because this profession provides opportunities for professional growth_.
+_I am 32 years old. I am interested in **web development** because this profession provides opportunities for professional growth_.
 
 _I believe that my perseverance and perseverance will help me become a frontend developer_.
 
 ---
 
-##**_Skills_**##
+## _Skills_
 
 - HTML 5 (basic);
 - CSS 3 (basic);
@@ -28,7 +28,7 @@ _I believe that my perseverance and perseverance will help me become a frontend 
 
 ---
 
-##**_Code example:_**##
+## _Code example:_
 
 ```
 $(document).ready(function() {
@@ -47,13 +47,13 @@ $(document).ready(function() {
 
 ---
 
-##**_Experience:_**##
+## _Experience:_
 
 _Engineer for the adjustment of power equipment, specialist in contract work at JSC "Belelectromontzhnaladka"_
 
 ---
 
-##**_Education:_**##
+##_Education:_##
 _University:_
 
 - Belarusian National Technical University, Thermal power plants;
@@ -61,7 +61,7 @@ _University:_
 
 ---
 
-##**_Languages:_**##
+## _Languages:_
 
 - English - А1;
 - Russian - Native;
