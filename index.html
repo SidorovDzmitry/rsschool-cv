@@ -5,15 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="robots" content="all">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Sidorov Dzmitry CV</title>
 </head>
 
 <body>
-	<div class="wrap">
-		<!----------------------------------header ----------------------------------------->
+	<div class="wrapper">
 		<header class="header">
 			<div class="header__container container">
 				<div class="header__burger">
@@ -32,8 +31,202 @@
 				</nav>
 			</div>
 		</header>
+
+		<main class="main">
+			<div class="main__container container">
+				<div class="inner inner__personal">
+
+					<section class="content content__hero">
+						<div class="wrap hero__wrap">
+							<img class="hero__photo" src="assets/img/my-photo.jpg" alt="My photo">
+							<h1 class="hero__title">Sidorov Dzmitry</h1>
+							<h2 class="hero__subtitle">Front-end developer (Beginner)</h2>
+							<a class="button hero__button" href="#"><span class="button__text">Download
+									CV</span></a>
+						</div>
+					</section>
+
+					<section class="content content__summary" id="summary">
+						<div class="wrap summary__wrap">
+							<h2 class="subtitle personal__subtitle"><i class="icon icon-hero_1"></i><span class="decor">About
+									me:</span></h2>
+							<p class="text summary__text">I am 32 years old. I am a graduate of the Belarusian National Technical
+								University and work as an energy engineer.
+								The opportunity to develop as a professional is very important to me, so now my goal is to gain
+								knowledge and skills in front-end development.
+								My main qualities are responsibility and hard work, as well as the ability to negotiate.</p>
+						</div>
+					</section>
+
+					<section class="content content__contacts" id="contacts">
+						<div class="wrap contacts__wrap">
+							<h2 class="subtitle personal__subtitle"><i class="icon icon-contacts"></i><span
+									class="decor">Contacts:</span></h2>
+							<ul class="contacts__list">
+								<li class="contacts__item">
+									<a class="contacts__link contacts__link-tel" href="tel:+375447016188">
+										<i class="icon icon-phone"></i>+375-44-701-61-88</a></li>
+								<li class="contacts__item">
+									<a class="contacts__link contacts__link-mail" href="mailto:sidorovdzmitry@gmail.com">
+										<i class="icon icon-envelope"></i>sidorovdzmitry@gmail.com</a></li>
+								<li class="contacts__item">
+									<a class="contacts__link contacts__link-telegram" href="https://t.me/sidorovdzmitry">
+										<i class="icon icon-telegram"></i>t.me/sidorovdzmitry</a></li>
+								<li class="contacts__item">
+									<a class="contacts__link contacts__link-git" href="https://github.com/SidorovDzmitry">
+										<i class="icon icon-github"></i>github.com/SidorovDzmitry</a></li>
+								<li class="contacts__item">
+									<a class="contacts__link contacts__link-discord" href="https://discord.gg/RetJkwR2">
+										<i class="icon icon-discord_2"></i>Dzmitry#4954</a></li>
+								<li class="contacts__item">
+									<i class="icon icon-geo"></i><span class="contacts__geo">Belarus, Minsk</span></li>
+							</ul>
+						</div>
+					</section>
+				</div>
+
+				<div class="inner inner__experience">
+					<section class="content content__skills" id="skills">
+						<div class="wrap skills__wrap">
+							<h2 class="subtitle subtitle__experience subtitle__experience--skills"><i
+									class="icon icon-skills_1"></i>Skills:</h2>
+							<ul class="skills__list">
+								<li class="skills__item skills__item--html">
+									<i class="icon icon-html-five"></i>Html 5 (basic)
+									<div class="level skills__level">
+										<span class="level__aсtual level__actual--html"></span>
+									</div>
+								</li>
+								<li class="skills__item skills__item--css">
+									<i class="icon icon-css"></i>Css 3 (basic)
+									<div class="level skills__level">
+										<span class="level__aсtual level__actual--css"></span>
+									</div>
+								</li>
+								<li class="skills__item skills__item--vs">
+									<i class="icon icon-vscode"></i>VS Code
+									<div class="level skills__level">
+										<span class="level__aсtual level__actual--vs"></span>
+									</div>
+								</li>
+								<li class="skills__item skills__item--git">
+									<i class="icon icon-github"></i>Git/Github
+									<div class="level skills__level">
+										<span class="level__aсtual level__actual--git"></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+					<section class="content content__code" id="сode">
+						<div class="wrap code__wrap">
+							<h2 class="subtitle subtitle__experience subtitle__experience--code"><i class="icon icon-code"></i>Code
+								Example:</h2>
+							<p class="text text__experience text__experience--сode">
+								This code snippet is used in the burger menu and is necessary to switch the active/inactive state of the
+								menu when clicking on it.
+							</p>
+							<code class="example-code">
+								$<span class="bracket-yellow">(</span>document<span class="bracket-yellow">)</span>.ready<span
+									class="bracket-yellow">(</span><span class="js__function">function</span> <span
+									class="bracket-purple">(){</span>
+								<span class="code__margin-1">
+									$<span class="js__function">(</span><span class="js-keywords">'.header__burger'</span><span
+										class="js__function">)</span>.click<span class="js__function">(function</span><span
+										class="bracket-yellow">(){</span>
+								</span>
+								<span class="code__margin-2">
+									$<span class="bracket-purple">(</span><span class="js-keywords">'.header__burger'</span><span
+										class="bracket-purple">)</span>.toggleClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'active'</span><span class="bracket-purple">)</span>; <br>
+									$<span class="bracket-purple">(</span><span class="js-keywords">'.header__menu'</span><span
+										class="bracket-purple">)</span>.toggleClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'active'</span><span class="bracket-purple">)</span>;
+									<br>
+									$<span class="bracket-purple">(</span><span class="js-keywords">'body'</span><span
+										class="bracket-purple">)</span>.toggleClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'lock'</span><span class="bracket-purple">)</span>;
+								</span>
+								<span class="code__margin-1">
+									<span class="bracket-yellow">}</span><span class="js__function">)</span>;
+									<br>
+									$<span class="js__function">(</span><span class="js-keywords">'.menu__link'</span><span
+										class="js__function">)</span>.click(<span class="js__function">function</span><span
+										class="bracket-yellow">(){</span>
+								</span>
+								<span class="code__margin-2">
+									$<span class="bracket-purple">(</span><span class="js-keywords">'.header__menu'</span><span
+										class="bracket-purple">)</span>.removeClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'active'</span><span class="bracket-purple">)</span>;
+									<br>
+									$<span class="bracket-purple">(</span><span class="js-keywords">'.header__burger'</span><span
+										class="bracket-purple">)</span>.removeClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'active'</span><span class="bracket-purple">)</span>;
+									<br>
+									$<span class="bracket-purple">(</span><span class="js-keywords">'body'</span><span
+										class="bracket-purple">)</span>.removeClass<span class="bracket-purple">(</span><span
+										class="js-keywords">'lock'</span><span class="bracket-purple">)</span>;
+								</span>
+								<span class="code__margin-1">
+									<span class="bracket-yellow">}</span><span class="js__function">)</span>;
+								</span>
+								<span class="bracket-purple">}</span><span class="bracket-yellow">)</span>;
+							</code>
+						</div>
+					</section>
+
+					<section class="content content__projects" id="projects">
+						<div class="wrap projects__wrap">
+							<h2 class="subtitle subtitle__experience subtitle__experience--projects"><i
+									class="icon icon-task"></i>Projects:</h2>
+							<p class="text text__experience text__experience--projects">At the moment I don't have any completed
+								projects that I want to showcase. As an example, I will provide a
+								link to the source code of this page</p>
+							<a href="" class="link link__projects">
+								<img src="assets/img/screen.jpg" alt="My CV" class="img img__projects">
+							</a>
+							<a href="" class="button button__project">View the code</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="inner inner__knowledge">
+					<section class="content content__education" id="education">
+						<div class="wrap education__wrap">
+							<h2 class="subtitle subtite__knowledge subtite__knowledge--education">
+								<i class="icon icon-education"></i>Education: </h2>
+							<p class="text text__knowledge text__knowledge--education"> Belarusian National Technical University,
+								Energy Faculty</p>
+							<p class="text text__knowledge text__knowledge--education">Specialization: Thermal power plants</p>
+						</div>
+
+					</section>
+					<section class="content content__languages" id="languages">
+						<div class="wrap languages__wrap">
+							<h2 class="subtitle subtite__knowledge subtite__knowledge--languages">
+								<i class="icon icon-book"></i>Languages:</h2>
+							<p class="text text__knowledge text__knowledge--languages">English: A1</p>
+							<p class="text text__knowledge text__knowledge--languages">Russian: native</p>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<a class="link footer__link footer__link--git" href="https://github.com/SidorovDzmitry">
+					<i class="icon icon-github"></i>Visit my Github</a>
+				<time datetime="2022"><span class="text footer__text">2022</span></time>
+				<a class="link footer__link footer__link--rs-school" href="https://rs.school/js/">
+					<img class="logo logo--rs-school" src="assets/img/rs_school_js.svg" alt="rs-scool_logo">
+				</a>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="js/script.js"></script>
 
 </html>
