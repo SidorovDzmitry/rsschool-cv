@@ -48,7 +48,346 @@
       </nav>
     </div>
   </header>
+  <main class="main">
+    <div class="main__container container">
+      <div class="content content--personal">
+        <section class="hero content__inner">
+          <img class="hero__photo" src="assets/img/my-photo.jpg" alt="My photo">
+          <h1 class="hero__title title">Dzmitry Sidorov </h1>
+          <h2 class="hero__subtitle">Front-end developer (Beginner)</h2>
+          <a class="hero__button button" href="#">
+            <span class="button__text">Download CV</span>
+          </a>
+        </section>
 
+        <section class="summary content__inner" id="summary">
+          <h2 class="summary__title title">
+            <i class="icon icon-hero_1"></i>
+            <span class="decor">About me:</span>
+          </h2>
+          <p class="summary__text text ">
+            I am 32 years old. I am a graduate of the Belarusian National Technical University and work as an energy
+            engineer. The opportunity to develop as a professional is very important to me, so now my goal is to gain
+            knowledge and skills in front-end development. My main qualities are responsibility and hard work, as well
+            as the bility to negotiate.
+          </p>
+        </section>
+
+        <section class="contacts content__inner" id="contacts">
+          <h2 class="contacts__title title">
+            <i class="icon icon-contacts"></i>
+            <span class="decor">Contacts:</span>
+          </h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link contacts__link--tel" href="tel:+375333804512">
+                <i class="icon icon-phone"></i>
+                +375-33-380-45-12
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link contacts__link--mail" href="mailto:dzmitrysidorov@gmail.com" target="_blank">
+                <i class="icon icon-envelope"></i>
+                dzmitrysidorov@gmail.com
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link contacts__link--telegram" href="https://t.me/dzmitrysidorov" target="_blank">
+                <i class="icon icon-telegram"></i>
+                t.me/dzmitrysidorov
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link contacts__link--git" href="https://github.com/DzmitrySidorov" target="_blank">
+                <i class="icon icon-github"></i>
+                github.com/DzmitrySidorov
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link contacts__link--discord" href="https://discord.gg/BgJ962yA" target="_blank">
+                <i class="icon icon-discord_2"></i>
+                Dzmitry#4954
+              </a>
+            </li>
+            <li class="contacts__item">
+              <i class="icon icon-geo"></i>
+              <span class="contacts__geo">Belarus, Minsk</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="content content--experience">
+        <section class="skills content__inner" id="skills">
+          <h2 class="skills-title title">
+            <i class="icon icon-skills_1"></i>
+            Skills:
+          </h2>
+          <ul class="skills__list">
+            <li class="skills__item skills__item--html">
+              <i class="icon icon-html-five"></i>
+              Html 5 (basic)
+              <div class="skills__level level">
+                <span class="level__aсtual level__actual--html"></span>
+              </div>
+            </li>
+            <li class="skills__item skills__item--css">
+              <i class="icon icon-css"></i>
+              Css 3 (basic)
+              <div class="skills__level level">
+                <span class="level__aсtual level__actual--css"></span>
+              </div>
+            </li>
+            <li class="skills__item skills__item--vs">
+              <i class="icon icon-vscode"></i>
+              VS Code
+              <div class="skills__level level">
+                <span class="level__aсtual level__actual--vs"></span>
+              </div>
+            </li>
+            <li class="skills__item skills__item--git">
+              <i class="icon icon-github"></i>
+              Git/Github
+              <div class="skills__level level">
+                <span class="level__aсtual level__actual--git"></span>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="projects content__inner" id="projects">
+          <h2 class="projects__title title">
+            <i class="icon icon-task"></i>
+            Projects:
+          </h2>
+          <p class="projects__text text">
+            At the moment I don't have any completed projects that I want to
+            showcase. As an example, I will provide a link to the source
+            code of this page
+          </p>
+          <a class="projects__link link" href="https://github.com/DzmitrySidorov/rsschool-cv/tree/gh-pages/"
+            target="_blank">
+            <img class="projects__img img" src="assets/img/screenCV.jpg" alt="My CV">
+          </a>
+          <a class="project__button button" href="https://github.com/DzmitrySidorov/rsschool-cv/tree/gh-pages/"
+            target="_blank">
+            View the code
+          </a>
+        </section>
+
+        <section class="code content__inner" id="сode">
+          <h2 class="code__title title">
+            <i class="icon icon-code"></i>
+            Code Example:
+          </h2>
+          <p class="code__text text">
+            This code snippet is used in the burger menu and is necessary to switch the active/inactive state of the
+            menu when on it.
+          </p>
+          <code class="code__example">
+            $
+            <span class="bracket-yellow">(</span>
+            document
+            <span class="bracket-yellow">
+              )
+            </span>
+            .ready
+            <span class="bracket-yellow">
+              (
+            </span>
+            <span class="js__function">function</span>
+            <span class="bracket-purple">(){</span>
+            <span class="code__margin-1">
+              $
+              <span class="js__function">
+                (
+              </span>
+              <span class="js-keywords">
+                '.header__burger'
+              </span>
+              <span class="js__function">)</span>
+              .click
+              <span class="js__function">
+                (function
+              </span>
+              <span class="bracket-yellow">(){</span>
+            </span>
+            <span class="code__margin-2">
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                '.header__burger'
+              </span>
+              <span class="bracket-purple">)</span>
+              .toggleClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'active'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+              <br>
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                '.header__menu'
+              </span>
+              <span class="bracket-purple">)</span>
+              .toggleClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'active'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+              <br>
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'body'
+              </span>
+              <span class="bracket-purple">)</span>
+              .toggleClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'lock'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+            </span>
+            <span class="code__margin-1">
+              <span class="bracket-yellow">
+                }
+              </span>
+              <span class="js__function">)</span>
+              ;
+              <br>
+              $
+              <span class="js__function">
+                (
+              </span>
+              <span class="js-keywords">
+                '.menu__link'
+              </span>
+              <span class="js__function">)</span>
+              .click(
+              <span class="js__function">
+                function
+              </span>
+              <span class="bracket-yellow">(){</span>
+            </span>
+            <span class="code__margin-2">
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                '.header__menu'
+              </span>
+              <span class="bracket-purple">)</span>
+              .removeClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'active'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+              <br>
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                '.header__burger'
+              </span>
+              <span class="bracket-purple">)</span>
+              .removeClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'active'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+              <br>
+              $
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'body'
+              </span>
+              <span class="bracket-purple">)</span>
+              .removeClass
+              <span class="bracket-purple">
+                (
+              </span>
+              <span class="js-keywords">
+                'lock'
+              </span>
+              <span class="bracket-purple">)</span>
+              ;
+            </span>
+            <span class="code__margin-1">
+              <span class="bracket-yellow">
+                }
+              </span>
+              <span class="js__function">)</span>
+              ;
+            </span>
+            <span class="bracket-purple">
+              }
+            </span>
+            <span class="bracket-yellow">)</span>
+            ;
+          </code>
+        </section>
+      </div>
+
+      <div class="content content--knowledge">
+        <section class="education content__inner" id="education">
+          <h2 class="education__title title">
+            <i class="icon icon-education"></i>
+            Education:
+          </h2>
+          <p class="education__text text">
+            Belarusian National Technical University, Energy Faculty
+          </p>
+          <p class="education__text text">
+            Specialization: Thermal power plants
+          </p>
+        </section>
+
+        <section class="languages content__inner" id="languages">
+          <h2 class="languages__title title">
+            <i class="icon icon-book"></i>
+            Languages:
+          </h2>
+          <p class="languages__text text">
+            English: A1
+          </p>
+          <p class="languages__text text">
+            Russian: native
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
