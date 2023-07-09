@@ -6,8 +6,8 @@
 
 - _Location:_ Minsk, Belarus;
 - _Phone:_ +375-33-380-45-12;
-- _Email:_ dzmitrysidorov@gmail.com;
-- _GitHub:_ DzmitrySidorov.
+- _Email:_ sidorovdzmitry@gmail.com;
+- _GitHub:_ SidorovDzmitry
 
 ---
 
